@@ -8,7 +8,7 @@ ndk-build
 printf "Creating install paths..."
 
 SCRIPT_PATH="`dirname \"$0\"`"
-INSTALL_PATH="$SCRIPT_PATH/../prebuilt/android"
+INSTALL_PATH="$SCRIPT_PATH/../prebuilt/lib/android"
 LIB_NAME="libgladmanaes.a"
 
 mkdir -p "$INSTALL_PATH/armeabi/"
